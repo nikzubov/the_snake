@@ -1,4 +1,4 @@
-from random import choice, randint
+from random import randint
 
 import pygame
 
@@ -83,6 +83,7 @@ class Apple(GameObject):
 
 class Snake(GameObject):
     """Класс для игрового объекта, змейка."""
+
     position = [(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)]
 
     def __init__(self):
