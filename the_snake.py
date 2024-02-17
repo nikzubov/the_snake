@@ -55,7 +55,6 @@ class GameObject:
 
     def draw(self, position, surface):
         """Метод отрисовки объектов."""
-
         rect = pygame.Rect(
             (position[0], position[1]),
             (GRID_SIZE, GRID_SIZE)
